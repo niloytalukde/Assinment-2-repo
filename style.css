@@ -43,6 +43,18 @@
 color: rgba(255, 255, 255, 0.5) ;
     margin-bottom: 28px;}
 
+
+  .our-popular{
+    font-size: 1.8rem;
+    font-size: 700;
+    color: white;
+    margin-bottom: 15px;
+  }
+  .our-classes{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1.3rem;
+  }
+
   /* header styles  */
   .title{
   color: rgba(230, 83, 60, 1);
@@ -212,3 +224,16 @@ margin: 40px;
 #contan{
   border-radius: 18px;
 }
+
+ /* Popular Classes section start   */
+
+.gym-title{
+text-align: center;
+}
+
+.classes-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
+/* Popular Classes section start  */
