@@ -186,3 +186,29 @@ main{
     margin-bottom: 100px;
 }
 /* Change Your Habits styles end */
+
+/* Run an Extra Mile Easily section styles start  */
+
+.running-man{
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+ margin-top:120px ;
+ align-items: center;
+ gap: 80px;
+  
+}
+
+
+.raidous{
+  border-radius: 18px;
+margin: 40px;
+}
+  
+.runnin-man-contenar{
+  margin-left: 54px;
+  margin-bottom: 40px;
+  
+}
+#contan{
+  border-radius: 18px;
+}
