@@ -1,0 +1,22 @@
+@media screen and (max-width:576px) {
+    .banner,habit-container{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .contaner{
+       max-width: 353px;
+       margin-left: 20px;
+       height: 335px;
+    }
+
+    .bar-btn{
+        display: block;
+    }
+    .habit-container{
+        
+       grid-template-columns:repeat(1,1fr); 
+}
+}

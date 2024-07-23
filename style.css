@@ -1,0 +1,188 @@
+  /* body{ 
+    margin: 0;
+    padding: 0;
+}  */
+ 
+
+
+/* normal font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  /* common style   */
+.display-flex{
+    display: flex;
+}
+.common{ 
+   background-color:#e6533c;
+   color: white;
+   padding: 16px 40px;
+   border-radius: 42px;
+   border: none;
+   margin-left: 10px;
+}
+.habit-title{
+    font-size: 48px;
+    font-weight: 800;
+    color:white;
+    margin-bottom: 14px;
+}
+.movement-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.movement-description{
+color: rgba(255, 255, 255, 0.5) ;
+    margin-bottom: 28px;}
+
+  /* header styles  */
+  .title{
+  color: rgba(230, 83, 60, 1);
+  font-size: 2.1rem;  
+  font-weight: 800;
+  font-style: italic;
+  }
+  .nav-link{
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+   padding: 4px 4px;
+
+ 
+  }
+  .nav-item,a{
+     margin-left: 1.5rem;  
+     margin-right: 1.5rem;
+    text-decoration: none;
+    font-size: 1.3rem; 
+    color: white;
+    padding: 2px 2px ;
+  }
+  
+
+  .nav-bar{
+    justify-content: space-between;
+    margin-top: 57Px;
+    align-items: center;
+    margin-left: 190px;
+    max-width: 1060px;  
+  }
+  .bar-btn{
+    color:#fff;
+    font-size: 1.5rem;
+    display: none;
+    
+  }
+  a:hover{
+    background-color: rgba(230, 83, 60, 1);
+  }
+  a.active{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 5px;
+    /* padding: 2px; */
+  }
+/* banner section styles  */
+  .nav-bar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .bg-light{
+    background-color:rgba(17, 17, 17, 1);
+
+  }
+.bg-all{
+    background-color: black;
+}
+.banner{
+    justify-content: space-between;
+    max-width: 1060px;
+}
+.banner-title{
+    line-height: 93px;
+    font-size:4.9rem ;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 28px;  
+}
+.font-change{
+  font-style: italic;
+  font-weight: 400;
+}
+.contaner{
+    width:520px;
+    
+}
+img{
+    width: 100%;
+     position: relative; 
+    
+}
+ .tutorial{
+  color: white;
+  background-color: aqua;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+ } 
+
+ 
+.btn{
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    gap: 10px;
+   background-color: transparent;
+   border: 1px  solid rgba(255, 255, 255, 1);
+  
+    
+}
+.banner-description{
+    color:
+    rgba(255, 255, 255, 0.5) ;
+    margin-bottom: 28px;
+
+}
+main{
+    max-width: 1060px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* Change Your Habits styles */
+.habit-container{
+     display: grid;
+    grid-template-columns:repeat(4,1fr); 
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+    
+.img-sizing{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+     display: inline-block;   
+}
+.habit{
+    margin-top: 100px;
+    text-align: center;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 18Px;
+    margin-bottom: 100px;
+}
+/* Change Your Habits styles end */
