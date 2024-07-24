@@ -40,11 +40,27 @@
 width: 287px;
 height: 54px;
 align-items: center;
-margin-left: 65px;
+margin-left: 60px;
 font-size: 20px;
 }
 .classes-container{
     grid-template-columns: repeat(1,1fr);
     gap: 5px;
 }
+.our-team{
+    grid-template-columns: repeat(1,4fr);
+  text-align: center;
+    margin-left: 200px;
+}
+.position-1{
+   top: 100px;
+}
+.position-4{
+bottom: 100px;
+}
+
+
+
+
+
 }

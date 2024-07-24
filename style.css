@@ -29,7 +29,7 @@
    margin-left: 10px;
 }
 .habit-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 800;
     color:white;
     margin-bottom: 14px;
@@ -236,4 +236,49 @@ text-align: center;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
 }
-/* Popular Classes section start  */
+/* Popular Classes section end  */
+
+.card-title{
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+.card-description{
+  color: rgba(255, 255, 255, 0.5) ; ;
+}
+
+.our-team {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+   gap: 15px; 
+  background-color: rgb(26, 26, 26);
+   position: relative; 
+   padding: 25px;
+   margin-top: 70px;
+   border-radius: 18px;
+}
+
+.width{
+  width: 325px;
+  height: 272px;
+  border-radius: 18px;
+}
+/* common style for position  */
+.width-4{
+  position: relative;
+}
+ .position-1{
+  position:absolute;
+   top:200px ;
+  
+} 
+.position-4{
+  position:absolute;
+  bottom: 20px;
+  
+} 
+
+.our-time-title-and-description{
+  text-align: center;
+}
+ /* Meet Our Team section end   */
